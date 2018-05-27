@@ -152,3 +152,38 @@ int main(int argc, char** argv)
     glutMainLoop();
     return 0;
 }
+/*
+ldd exec 
+        linux-vdso.so.1 =>  (0x00007fff0f3e3000)
+        libpthread.so.0 => /lib64/libpthread.so.0 (0x00007f83b4ffc000)
+        libglut.so.3 => /lib64/libglut.so.3 (0x00007f83b4db1000)
+        libGL.so.1 => /home/duyongze/opt/mesa-18.0.2/lib/libGL.so.1 (0x00007f83b4b45000)
+        libGLU.so.1 => /lib64/libGLU.so.1 (0x00007f83b48c5000)
+        libstdc++.so.6 => /lib64/libstdc++.so.6 (0x00007f83b45be000)
+        libm.so.6 => /lib64/libm.so.6 (0x00007f83b42bb000)
+        libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x00007f83b40a5000)
+        libc.so.6 => /lib64/libc.so.6 (0x00007f83b3ce4000)
+        /lib64/ld-linux-x86-64.so.2 (0x00007f83b5232000)
+        libXext.so.6 => /lib64/libXext.so.6 (0x00007f83b3ad1000)
+        libX11.so.6 => /lib64/libX11.so.6 (0x00007f83b3793000)
+        libXi.so.6 => /lib64/libXi.so.6 (0x00007f83b3583000)
+        libXxf86vm.so.1 => /lib64/libXxf86vm.so.1 (0x00007f83b337c000)
+        libz.so.1 => /lib64/libz.so.1 (0x00007f83b3166000)
+        libexpat.so.1 => /home/duyongze/opt//expat-2.2.5/lib/libexpat.so.1 (0x00007f83b2f2f000)
+        libxcb-dri3.so.0 => /home/duyongze/opt//libxcb-1.13/lib/libxcb-dri3.so.0 (0x00007f83b2d2a000)
+        libxcb-xfixes.so.0 => /home/duyongze/opt//libxcb-1.13/lib/libxcb-xfixes.so.0 (0x00007f83b2b21000)
+        libxcb-present.so.0 => /home/duyongze/opt//libxcb-1.13/lib/libxcb-present.so.0 (0x00007f83b291c000)
+        libxcb-sync.so.1 => /home/duyongze/opt//libxcb-1.13/lib/libxcb-sync.so.1 (0x00007f83b2714000)
+        libxshmfence.so.1 => /home/duyongze/opt//libxshmfence-1.3/lib/libxshmfence.so.1 (0x00007f83b2511000)
+        libglapi.so.0 => /home/duyongze/opt/mesa-18.0.2/lib/libglapi.so.0 (0x00007f83b22df000)
+        libXdamage.so.1 => /lib64/libXdamage.so.1 (0x00007f83b20dc000)
+        libXfixes.so.3 => /lib64/libXfixes.so.3 (0x00007f83b1ed6000)
+        libX11-xcb.so.1 => /lib64/libX11-xcb.so.1 (0x00007f83b1cd3000)
+        libxcb-glx.so.0 => /home/duyongze/opt//libxcb-1.13/lib/libxcb-glx.so.0 (0x00007f83b1ab3000)
+        libxcb-dri2.so.0 => /home/duyongze/opt//libxcb-1.13/lib/libxcb-dri2.so.0 (0x00007f83b18ae000)
+        libxcb.so.1 => /home/duyongze/opt//libxcb-1.13/lib/libxcb.so.1 (0x00007f83b167c000)
+        libXau.so.6 => /lib64/libXau.so.6 (0x00007f83b1478000)
+        libdrm.so.2 => /home/duyongze/opt/libdrm2492/lib/libdrm.so.2 (0x00007f83b1267000)
+        libdl.so.2 => /lib64/libdl.so.2 (0x00007f83b1062000)
+        */
+
